@@ -1,0 +1,43 @@
+body {
+    font-family: "Playwrite IS", cursive;
+    font-weight: bolder;
+}
+
+.caption-overlay {
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+}
+
+.gallery-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#lightbox-container {
+    background-color: rgba(0, 0, 0, 0.8); /* تغيير اللون إلى الأسود مع شفافية */
+}
+
+#lightbox-content {
+    background-color: #fff; /* خلفية بيضاء */
+    border-radius: 10px;
+}
+
+#lightbox-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+i {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 667px) {
+    #lightbox-content {
+        width: 95%;
+        height: 95%;
+    }
+}
